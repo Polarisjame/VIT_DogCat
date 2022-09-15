@@ -3,6 +3,7 @@
 
 ## 数据集下载
 > [kaggle猫狗分类](https://www.kaggle.com/datasets/shaunthesheep/microsoft-catsvsdogs-dataset)
+> 下载的猫狗文件保存在data文件夹下
 
 ## 环境配置
 * `python3.7`
