@@ -1,6 +1,8 @@
 # VIT_DogCat
 用VIT尝试了下kaggle数据集的猫狗分类
 
+> 2022/9/15 添加了Pytorch-lightning框架，修复一些错误
+
 ## 数据集下载
 >[kaggle猫狗分类](https://www.kaggle.com/datasets/shaunthesheep/microsoft-catsvsdogs-dataset)  
  下载的猫狗文件保存在data文件夹下
