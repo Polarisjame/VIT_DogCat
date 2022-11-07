@@ -88,7 +88,8 @@ class Classifaction(nn.Module):
         self.linear = nn.Linear(emb_size, n_classes)
 
     def forward(self, x):
-        x = Reduce('b n e -> b e', 'mean')(x)
+        # x = Reduce('b n e -> b e', 'mean')(x)
+        x = x[:, 0, :] # get CLS token
         x = self.norm(x)
         return self.linear(x)
 
